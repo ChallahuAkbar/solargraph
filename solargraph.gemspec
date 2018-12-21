@@ -14,6 +14,9 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://solargraph.org'
   s.license     = 'MIT'
   s.executables   = ['solargraph', 'solargraph-runtime']
+  s.metadata = {
+    'changelog_uri' => 'https://github.com/castwide/solargraph/blob/master/CHANGELOG.md'
+  }
 
   s.required_ruby_version = '>= 2.1'
 
